@@ -166,13 +166,20 @@ button {
   text-align: center;
 }
 
+.header-pic {
+  height: 250px;
+}
+
 .round-pic {
   position: absolute;
+  top: 35%;
   left: 50%;
+  transform: translate(-50%, -50%);
+
   border-radius: 50%;
-  width: 50%;
-  height: 50%;
-  border: 5px white solid;
+  width: 250px;
+  height: 250px;
+  border: 10px white solid;
 
   /* display: inline-block; */
 }
