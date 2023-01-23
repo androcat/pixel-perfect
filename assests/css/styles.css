@@ -22,11 +22,16 @@ body {
   font-family: "Lato", "Oswald", "PLayfair+Display";
   text-align: center;
   margin: 0 auto;
+  /* width: 80%; */
+}
+
+.nav-main {
+  margin: 0 auto;
   width: 80%;
 }
 
 nav {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   top: 0;
 
@@ -81,7 +86,7 @@ nav li a {
 
 article {
   width: 1015px;
-  height: 1000px;
+  /* height: 1000px; */
   background-color: blue;
   margin-bottom: 5rem;
   box-shadow: 1px 1px 5px grey;
@@ -90,7 +95,7 @@ article {
 main {
   display: flex;
   flex-direction: row;
-  margin: 9.5rem auto;
+  margin: 5rem auto;
   justify-content: space-between;
 }
 
@@ -129,7 +134,7 @@ p {
 .sidebar-item {
   background-color: blueviolet;
   height: 735px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 button {
@@ -139,14 +144,14 @@ button {
   color: maroon;
   text-align: center;
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .article-footer {
   height: 50px;
   width: 100%;
   background-color: green;
-  border-top: 5px solid black;
+  border-top: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -183,7 +188,57 @@ button {
 
   /* display: inline-block; */
 }
+.sidebar {
+  text-align: center;
+}
 
-.sidebar-item h1 {
+.mattie {
+  margin-top: 160px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icons li a {
+  padding: 12px;
+}
+
+.mattie a {
+  border-radius: 50%;
+  padding: 15spx;
+  border: 1px solid grey;
+}
+
+.sidebar-item {
+  margin-bottom: 0;
+}
+.second-item h1 {
   margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.second-item-pic {
+  width: 80%;
+}
+
+.second-item p {
+  font-style: italic;
+  /* border-bottom: 1px solid #cacaca; */
+}
+
+.second-item span {
+  width: 50px;
+  height: 1px;
+  background-color: black;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.footer-img {
+  /* width: 12.5%; */
 }
